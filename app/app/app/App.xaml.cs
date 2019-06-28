@@ -1,4 +1,5 @@
 ﻿using System;
+using app.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace app
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new NotesPage());
         }
 
         protected override void OnStart()

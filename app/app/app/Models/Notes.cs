@@ -7,7 +7,7 @@ namespace app.Models
 {
     public class Notes
     {
-        [JsonProperty(PropertyName = "name")]
-        public string Name { get; set; }
+        [JsonProperty(PropertyName = "conten")]
+        public string Content { get; set; }
     }
 }
